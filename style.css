@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+ /* INI NAVBAR */
+
+ .navbar .nav ul li a{
+    text-decoration: none;
+}
+
+ .navbar .nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    padding-top: 10px;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.navbar .nav ul li{
+    display: inline-block;
+    margin-top:50px;
+    margin-right: 20px;
+}
+
+.navbar ul{
+    margin-top: -50px;
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+}
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+} 
+
+.search{
+    padding-top: 9px;
+    width: 25px;
+    height: 25px;
+}
+.bag{
+    padding-top: 9px;
+    width: 25px;
+    height: 25px;
+}
+
+
+ /* INI NAVBAR END */
+
+.main .jumbotron .mainheader{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    align-items: center;
+    background-color: black;
+}
+
+.main .jumbotron .mainheader img{
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.main .banner{
+    background-image: url('images/bg-mac.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main .banner .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link, h4{
+    margin-top: -20px;
+}
+
+.main .banner .container h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.main .banner .container h4{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.main .banner .container .link a{
+    color: rgb(0, 132, 255);
+    padding: 15px;
+    text-decoration: none;
+}
+
+.banner .container .link a:hover{
+    text-decoration: underline;
+}
+
+.link a{
+    color: inherit;
+}
+
+.footer{
+    background-color: black;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    bottom: 0;
+}
+
+.footer div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer a{
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.footer h3{
+    font-weight: 200;
+    margin-bottom: -5px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.content2{
+    display: flex;
+    background-color: white;
+    color: black;
+}
+
+.image3{
+    margin-top: 112px;
+}
+
+.image2 img{
+    cursor: pointer;
+}
+
+.image3 img{
+    cursor: pointer;
+}
+
+.main .isi .container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apple .container2  h4{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.ipad .container3  h4{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.main .ipad .container2 .link2 a{
+    color: rgb(0, 132, 255);
+    padding: 15px;
+    text-decoration: none;
+}
+
+.ipad .container2 .link2 a:hover{
+    text-decoration: underline;
+}
+
+.main .apple .container3 .link3 a{
+    color: rgb(0, 132, 255);
+    padding: 15px;
+    text-decoration: none;
+}
+
+.main .apple .link3 a:hover{
+    text-decoration: underline;
+}
+
+.main .ipad .container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .apple .container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .ipad{
+    background-image: url('images/iPad.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 650px;
+    height: 700px;
+}
+
+.main .apple{
+    background-image: url('images/airpods.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 650px;
+    height: 750px;
+}
+
+.main .ipad .container2 h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.main .ipad .container2 h4{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.main .apple .container3 h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.main .apple .container3 h4{
+    font-size: 25px;
+    font-weight: 100;
+}
